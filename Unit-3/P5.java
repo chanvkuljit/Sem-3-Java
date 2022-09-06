@@ -1,29 +1,29 @@
-import java.util.Scanner;
-
+/*Write a Java program to demonstrate use of super keyword
+*/
 class first
 {
-	int num=1;
+    int num=1;
 
 }
 
 class second extends first
 {
-	int num=2;
+    int num=2;
 
-	void display()
-	{
-	
-	    System.out.println(num);
-	    System.out.println(super.num);
-	}
+    void display()
+    {
+    
+        System.out.println(num);
+        System.out.println(super.num);
+    }
 }
 
 public class P5
 {
-	public static void main(String[] args)
-	{
-		second s = new second();
+    public static void main(String[] args)
+    {
+        second s = new second();
 
-		s.display();
-	}
+        s.display();
+    }
 }
