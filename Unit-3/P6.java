@@ -1,3 +1,7 @@
+/* Write a Java program to demonstrate use of final keyword with class 
+and method.
+*/
+
 final class example
 {
     int num;
