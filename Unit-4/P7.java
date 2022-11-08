@@ -1,6 +1,6 @@
 /*7. Write a Java program to create a thread using Thread Class*/
 
-class P7 extends Thread
+class Main extends Thread
 {
   public void run ()
   {
@@ -8,9 +8,7 @@ class P7 extends Thread
   }
   public static void main (String args[])
   {
-    P7 func1 = new P7 ();
-    func1.start ();
-    P7 func2 = new P7 ();
-    func2.start ();
+    Main t1 = new Main ();
+    t1.start ();
   }
 }
